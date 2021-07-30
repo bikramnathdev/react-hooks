@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import MouseContainer from '../MouseContainer'
+import UseEffectFetch from '../UseEfectFetch'
 import UseEffect from '../UseEffect'
 import UseEffectIntialRun from '../UseEffectIntialRun'
 import UseState from '../UseState'
@@ -15,7 +16,8 @@ function App() {
       {/* <UseStateArray/> */}
       {/* <UseEffect/> */}
       {/* <UseEffectIntialRun/> */}
-      <MouseContainer/>
+      {/* <MouseContainer/> */}
+      <UseEffectFetch/>
     </div>
   )
 }

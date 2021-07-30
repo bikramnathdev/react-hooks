@@ -1,0 +1,11 @@
+.title{
+    font-size: large;
+    font-weight: 600;
+    color: coral;
+    border-bottom: darkblue solid;
+}
+.desc {
+    font-size: medium;
+    font-style: italic;
+    color: crimson;
+}
