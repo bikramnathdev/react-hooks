@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import UseEffect from '../UseEffect'
 import UseState from '../UseState'
 import UseStateArray from '../UseStateArray'
 import UseStateObject from '../UseStateObject'
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       {/* <UseState/> */}
       {/* <UseStateObject/> */}
-      <UseStateArray/>
+      {/* <UseStateArray/> */}
+      <UseEffect/>
     </div>
   )
 }
