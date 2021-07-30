@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import UseEffect from '../UseEffect'
+import UseEffectIntialRun from '../UseEffectIntialRun'
 import UseState from '../UseState'
 import UseStateArray from '../UseStateArray'
 import UseStateObject from '../UseStateObject'
@@ -11,7 +12,8 @@ function App() {
       {/* <UseState/> */}
       {/* <UseStateObject/> */}
       {/* <UseStateArray/> */}
-      <UseEffect/>
+      {/* <UseEffect/> */}
+      <UseEffectIntialRun/>
     </div>
   )
 }
