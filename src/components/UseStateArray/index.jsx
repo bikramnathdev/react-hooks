@@ -12,8 +12,10 @@ function UseStateArray() {
     ]);
   };
   const removeItem = (id) => {
-      const people = items.filter((o) => o.id !== id);
-      setItems(people);
+      setItems((oldItems) => {
+          let newItems = oldItems.filter((o) => o.id !== id);
+          return newItems;
+      })
   }
   return (
     <div>
