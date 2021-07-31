@@ -1,12 +1,13 @@
-import React, { useState } from 'react'
-import MouseContainer from '../MouseContainer'
-import UseEffectFetch from '../UseEfectFetch'
-import UseEffect from '../UseEffect'
-import UseEffectIntialRun from '../UseEffectIntialRun'
-import UseState from '../UseState'
-import UseStateArray from '../UseStateArray'
-import UseStateObject from '../UseStateObject'
-import './App.css'
+import React, { useState } from "react";
+import MouseContainer from "../MouseContainer";
+import UseEffectFetch from "../UseEfectFetch";
+import UseEffect from "../UseEffect";
+import UseEffectFetchDependency from "../UseEffectFetchDependency";
+import UseEffectIntialRun from "../UseEffectIntialRun";
+import UseState from "../UseState";
+import UseStateArray from "../UseStateArray";
+import UseStateObject from "../UseStateObject";
+import "./App.css";
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
       {/* <UseEffect/> */}
       {/* <UseEffectIntialRun/> */}
       {/* <MouseContainer/> */}
-      <UseEffectFetch/>
+      {/* <UseEffectFetch/> */}
+      <UseEffectFetchDependency />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
