@@ -5,6 +5,7 @@ import UseEffectFetch from "../UseEfectFetch";
 import UseEffect from "../UseEffect";
 import UseEffectFetchDependency from "../UseEffectFetchDependency";
 import UseEffectIntialRun from "../UseEffectIntialRun";
+import UseReducer from "../UseReducer";
 import UseState from "../UseState";
 import UseStateArray from "../UseStateArray";
 import UseStateObject from "../UseStateObject";
@@ -20,9 +21,9 @@ function App() {
 
   return (
     <div className="App">
-      <LangContext.Provider value={{language, setLanguage}}>
+      {/* <LangContext.Provider value={{language, setLanguage}}>
         <Header/>
-      </LangContext.Provider>
+      </LangContext.Provider> */}
       {/* <UseState/> */}
       {/* <UseStateObject/> */}
       {/* <UseStateArray/> */}
@@ -31,6 +32,7 @@ function App() {
       {/* <MouseContainer/> */}
       {/* <UseEffectFetch/> */}
       {/* <UseEffectFetchDependency /> */}
+      <UseReducer/>
 
     </div>
   );
